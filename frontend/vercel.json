@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://agentic-ai-project-risk-analyzer.onrender.com/api/$1" }
+  ]
+}
