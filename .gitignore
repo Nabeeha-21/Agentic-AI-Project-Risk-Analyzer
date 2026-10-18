@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/projex.db
+data/live/
+frontend/node_modules/
+venv/

@@ -1,0 +1,26 @@
+task_id,name,owner,start_date,due_date,est_days,progress,dependencies,priority,component
+T01,Requirements & scope,Anita,2026-08-11,2026-08-26,10,100,,High,Planning
+T02,System design,Karthik,2026-08-26,2026-09-10,12,100,T01,High,Design
+T03,Database schema,Meena,2026-08-31,2026-09-12,8,100,T02,Medium,Backend
+T04,UI/UX wireframes,Divya,2026-08-29,2026-09-15,10,100,T01,Medium,Frontend
+T05,Auth & user service,Ravi,2026-09-12,2026-09-30,12,100,T03,High,Backend
+T06,Product catalog API,Meena,2026-09-12,2026-10-02,13,100,T03,High,Backend
+T07,Payment gateway integration,Ravi,2026-09-15,2026-10-05,14,40,T05,Critical,Backend
+T08,Frontend component library,Divya,2026-09-14,2026-10-04,12,100,T04,Medium,Frontend
+T09,Product listing pages,Divya,2026-09-25,2026-10-13,10,70,T06;T08,Medium,Frontend
+T10,Shopping cart service,Ravi,2026-09-30,2026-10-16,9,35,T05;T07,High,Backend
+T11,Checkout flow UI,Divya,2026-10-05,2026-10-20,8,15,T09;T10,High,Frontend
+T12,Order management service,Ravi,2026-10-02,2026-10-18,10,30,T03;T07,High,Backend
+T13,Inventory sync,Suresh,2026-09-28,2026-10-14,8,60,T06,Medium,Backend
+T14,Notification service,Ravi,2026-10-10,2026-10-22,7,0,T12,Medium,Backend
+T15,Search & recommendations,Karthik,2026-09-26,2026-10-15,12,55,T06,High,Backend
+T16,Admin dashboard,Anita,2026-10-06,2026-10-24,9,25,T05;T06,Medium,Frontend
+T17,Security hardening,Suresh,2026-10-12,2026-10-26,6,0,T07;T10,High,Security
+T18,Performance optimisation,Karthik,2026-10-15,2026-10-28,6,0,T15;T13,Medium,Backend
+T19,Integration testing,Meena,2026-10-18,2026-11-01,8,0,T11;T12;T14,High,QA
+T20,User acceptance testing,Anita,2026-11-09,2026-11-20,5,0,T19;T16,High,QA
+T21,Documentation,Divya,2026-10-20,2026-11-07,6,0,T09,Medium,Docs
+T22,CI/CD pipeline,Suresh,2026-09-30,2026-10-20,7,40,T05,Medium,DevOps
+T23,Staging deployment,Suresh,2026-10-28,2026-11-03,3,0,T22;T18;T17,Medium,DevOps
+T24,Go-live & handover,Anita,2026-11-20,2026-11-23,3,0,T20;T23,Critical,Release
+T25,Coupons & discounts,Ravi,2026-10-07,2026-10-24,8,10,T05,Medium,Backend

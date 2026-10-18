@@ -1,0 +1,13 @@
+issue_id,task_id,severity,status,title
+I-001,T15,Critical,Open,Search returns wrong results for multi-word queries
+I-002,T15,Critical,Open,Index rebuild crashes on large catalogue
+I-003,T15,High,Open,Recommendation latency > 5s
+I-004,T15,Medium,Open,Stale cache after product update
+I-005,T15,Medium,Open,Typo tolerance disabled
+I-006,T07,High,Open,Gateway sandbox returns intermittent 502
+I-007,T10,High,Open,Cart totals wrong when coupons applied
+I-008,T10,Medium,Open,Cart not persisted across sessions
+I-009,T09,Low,Open,Image lazy-loading flicker
+I-010,T12,Medium,Closed,Order status enum mismatch
+I-011,T13,Medium,Open,Sync job skips deleted products
+I-012,T22,Low,Open,Pipeline cache misses on Windows runner

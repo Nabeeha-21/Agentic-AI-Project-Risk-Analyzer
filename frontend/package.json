@@ -1,0 +1,17 @@
+{
+  "name": "projex-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React dashboard for PROJEX - Agentic AI Project Risk Analyzer",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
